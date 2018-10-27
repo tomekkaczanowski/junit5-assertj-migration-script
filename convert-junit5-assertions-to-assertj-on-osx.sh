@@ -6,7 +6,9 @@ function usage() {
   echo "convert-junit5-assertions-to-assertj-on-osx.sh - Converts most of JUnit 5 assertions to AssertJ assertions"
   echo
   echo "AUTHOR"
-  echo "this script is based on JUnit 4 script found at http://joel-costigliola.github.io/assertj/assertj-core-converting-junit-assertions-to-assertj.html All I (Tomek Kaczanowski) did, was some changes in regexps mostly due to the fact the order arguments changed in JUnit 5 (i.e. message moved to 1st position). Kudos to whoever wrote the original script!"
+  echo "this script is based on JUnit 4 script found at http://joel-costigliola.github.io/assertj/assertj-core-converting-junit-assertions-to-assertj.html
+  All I (Tomek Kaczanowski) did, was some changes in regexps mostly due to the fact the order arguments changed
+  in JUnit 5 (i.e. message moved to 1st position). Kudos to whoever wrote the original script!"
   echo
   echo "It is difficult to convert ALL JUnit assertions (e.g. the ones that are multiline) but it should work for most of them."
   echo
